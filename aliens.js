@@ -46,9 +46,11 @@ alienChecker();
 function aliens(){ //the function that actually runs the alien number inputs and gives the corresponding output
   if (green >= 5000 ){
   	console.log("MOTHER OF GOD, not the green ones");
-  }if (green + red >= 8000){
+  }
+  if (green + red >= 8000){
     console.log("DOOOOOM");
-  }if (red + blue <= 3000){
+  }
+  if (red + blue <= 3000){
   	console.log("We will not go quietly into the night. We will not vanish without a fight. TODAY WE CELEBRATE OUR INDEPENDANCE DAY!");
   }
 }
