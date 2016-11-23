@@ -36,7 +36,8 @@ var totalAliens = 10000;
 function alienChecker(){ //checks to make sure number of aliens input equal 10000, if it does not, alien function does not run
   if (red + green + blue == totalAliens){
     aliens()
-  }else{
+  }
+  else{
     console.log("The number of aliens do not equal 10000")
   }
 }
